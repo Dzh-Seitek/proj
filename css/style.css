@@ -1,0 +1,275 @@
+@import url("http://fonts.cdnfonts.com/css/gilroy-bold");
+body {
+  font-family: "Gilroy", sans-serif;
+}
+
+.footer__bottom-text {
+  color: #828282;
+  font-family: 'Gilroy-Medium', sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.header__nav-item, .info__occupation, .subtitle, .footer__send-btn {
+  font-family: 'Gilroy-Medium', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.title {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 34px;
+  line-height: 42px;
+}
+
+.skills__photoshop, .skills__illustrator, .skills__a-effects, .skills__figma {
+  width: 167px;
+  height: 205px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gilroy", sans-serif;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-top: 33px;
+}
+
+.header__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 33px;
+  border-bottom: 1px solid #828282;
+}
+
+.header__nav-item {
+  color: #828282;
+  font-family: "Gilroy-Bold", sans-serif;
+  list-style: none;
+  text-transform: capitalize;
+}
+
+.active {
+  color: #070707;
+}
+
+.info {
+  margin: 40px 0;
+}
+
+.info__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info__username {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 47px;
+  line-height: 58px;
+  color: #070707;
+}
+
+.info__language {
+  cursor: pointer;
+  color: #828282;
+  font-weight: 600;
+  text-transform: uppercase;
+  transform: rotate(-90deg);
+  padding-top: 70px;
+}
+
+.user-picture__bg-hero {
+  background: url(../assets/bg-hero.svg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  max-width: 940px;
+  height: 387px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 104px;
+}
+
+.about__title {
+  text-align: center;
+  margin: 120px 0 18px 0;
+}
+
+.about__subtitle {
+  width: 485px;
+  margin: 0 auto;
+  margin-bottom: 107px;
+}
+
+.about__part {
+  margin: 30px 0;
+}
+
+.bg-gray {
+  background: #F6F6F6;
+}
+
+.title {
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.skills__title {
+  margin: 91px 0 69px 0;
+}
+
+.skills__subtitle {
+  margin-bottom: 83px;
+}
+
+.skills__apps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 111px;
+}
+
+.skills__photoshop {
+  background: url(../assets/app-icons/photoshop.svg) no-repeat;
+}
+
+.skills__illustrator {
+  background: url(../assets/app-icons/illustrator.svg) no-repeat;
+}
+
+.skills__a-effects {
+  background: url(../assets/app-icons/a-effects.svg) no-repeat;
+}
+
+.skills__figma {
+  background: url(../assets/app-icons/figma.svg) no-repeat;
+}
+
+.s-title {
+  color: #828282;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.portfolio {
+  padding: 1px 0;
+}
+
+.portfolio__title {
+  margin: 113px 0 50px 0;
+}
+
+.portfolio__pic {
+  background: url(../assets/bg-portfolio.svg) no-repeat;
+  background-size: cover;
+  max-width: 940px;
+  height: 510px;
+}
+
+.reebok {
+  padding: 1px 0;
+}
+
+.reebok__pic {
+  background: url(../assets/bg-reebok.svg) no-repeat;
+  background-size: cover;
+  max-width: 940px;
+  height: 522px;
+}
+
+.braun {
+  padding: 1px 0;
+}
+
+.braun__pic {
+  background: url(../assets/bg-camera.svg) no-repeat;
+  background-size: cover;
+  max-width: 940px;
+  height: 522px;
+}
+
+.braun__subtitle {
+  margin-bottom: 96px;
+}
+
+.background-styles {
+  margin-top: 100px;
+  margin-bottom: 45px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer__title {
+  margin: 114px 0 20px 0;
+}
+
+.footer__subtitle {
+  margin-bottom: 50px;
+}
+
+.footer__send-btn_styles {
+  color: #fff;
+  background: #070707;
+  border-radius: 30px;
+  font-family: "Gilroy-Bold", sans-serif;
+  text-decoration: none;
+  padding: 13px 30px;
+}
+
+.footer__social-block {
+  width: 342px;
+  margin: 90px auto 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__linkedin {
+  background: url(../assets/social-icons/linkedin.svg) no-repeat;
+}
+
+.footer__instagram {
+  background: url(../assets/social-icons/instagram.svg) no-repeat;
+}
+
+.footer__behance {
+  background: url(../assets/social-icons/behance.svg) no-repeat;
+}
+
+.footer__dribble {
+  background: url(../assets/social-icons/dribble.svg) no-repeat;
+}
+
+.footer__bottom-text {
+  margin-bottom: 123px;
+}
+
+.icon-styles {
+  width: 40px;
+  height: 40px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,25 @@
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+body {
+    font-family: "Gilroy", sans-serif;
+}
+$grayTextColor: #828282;
+%fontSize14LHeight17 {
+    color: $grayTextColor;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+}
+%fontSize18LHeight22 {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+}
+%fontSize34LHeight42 {
+    font-family: "Gilroy-Bold", sans-serif;
+    font-size: 34px;
+    line-height: 42px;
+}
+%widthHeight {
+    width: 167px;
+    height: 205px;
+}

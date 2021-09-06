@@ -1,0 +1,84 @@
+@media screen and (max-width: 992px) {
+    .container {
+        width: 900px !important;
+        margin: 0 auto;
+        transition: .5s ease-in-out;
+    }
+    .background-styles {
+        background-size: contain !important;
+        margin-top: 80px !important;
+        margin-bottom: 30px !important;
+    }
+    .skills {
+        &__figma, &__photoshop, &__a-effects, &__illustrator {
+            background-position: center !important;
+            width: 25% !important;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        width: 800px !important;
+        margin: 0 auto;
+        transition: .5s ease-in-out;
+    }
+    .background-styles {
+        background-size: contain !important;
+        margin-top: 70px !important;
+        margin-bottom: 25px !important;
+    }
+    .skills {
+        &__figma, &__photoshop, &__a-effects, &__illustrator {
+            background-position: center !important;
+            width: 50% !important;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 100% !important;
+        margin: 0 auto;
+        transition: .5s ease-in-out;
+    }
+    .background-styles {
+        background-size: contain !important;
+        margin-top: 60px !important;
+        margin-bottom: 15px !important;
+    }
+    .skills {
+        &__figma, &__photoshop, &__a-effects, &__illustrator {
+            background-position: center !important;
+            width: 50% !important;
+            margin-bottom: 50px;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 500px !important;
+        margin: 0 auto;
+        transition: .5s ease-in-out;
+    }
+    .background-styles {
+        background-size: contain !important;
+        max-width: 576px;
+        max-height: 300px;
+        margin: 0;
+    }
+    .skills {
+        &__apps {
+            display: flex;
+            align-items: center;
+        }
+        &__figma, &__photoshop, &__a-effects, &__illustrator {
+            background-size: 50% 100%!important;
+            background-position: center !important;
+            width: 50% !important;
+            margin-bottom: 50px;
+        }
+    }
+}
